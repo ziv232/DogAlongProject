@@ -1,0 +1,32 @@
+
+.buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3vh;
+}
+
+.card-buttons
+{
+    font-size: 2.5vh;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    padding: 1vh 1vh 1vh 1vh;
+    margin: auto;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    background: #2ecc71;
+    box-shadow: 0 5px 1px #27ae60;
+}
+
+.card-buttons:hover , .card-buttons:active
+{
+    background: #27ae60;
+    box-shadow: 0 5px 1px #145b32;
+}
+
+
