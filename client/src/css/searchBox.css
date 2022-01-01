@@ -1,0 +1,170 @@
+.search-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dialogContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.select-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.exitButton{
+    background: transparent;
+    width: 3rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+.buttonContainer{
+    padding-top: 2rem;
+}
+
+.buttonSearch:hover{
+    background: #d5d6cf;
+    border: none;
+}
+
+.exitButton:hover{
+    background: #d5d6cf;
+    border: none;
+}
+
+
+.exit-button{
+    background-color: #bbb;
+	width: 6vh;
+	height: 6vh;
+	border-radius: 50%;
+	color: #000;
+	float: right;
+	font-weight: bold;
+	font-size: 5vh;
+	cursor: pointer;
+    color: red;
+	transform: rotate(135deg);
+    position: relative;
+    z-index: 100;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin-left: 1vh;
+    margin-top: 1vh;
+	transition: all .1s ease-in-out
+}
+.exit-button:hover, .exit-button:active{
+    background-color: #F00;
+	color: #FFF
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+/* 3D Search Button */
+
+.search-button{
+    font-size: 2.5vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 20vh;
+    margin: auto;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    background: #2ecc71;
+    box-shadow: 0 5px 1px #27ae60;
+}
+
+.search-button:hover
+{
+    background: #27ae60;
+    box-shadow: 0 5px 1px #145b32;
+}
+
+.search-button:active
+{
+    border-top: 5px solid white;
+    box-shadow: none;
+}
+
+/* END 3D Search Button */
+
+
+/* Switch Search */
+
+.search-switcher {
+    text-align: center;
+}
+
+.search-switcher .fieldset {
+display: inline-block;
+position: relative;
+padding: 2px;
+border-radius: 50em;
+border: 2px solid #2d3e50;
+background: #2ecc71;
+}
+
+.search-switcher input[type="radio"] {
+position: absolute;
+opacity: 0;
+}
+
+.search-switcher label {
+position: relative;
+z-index: 1;
+display: inline-block;
+float: left;
+width: 90px;
+height: 40px;
+line-height: 40px;
+cursor: pointer;
+font-size: 2vh;
+color: #ffffff;
+}
+
+.search-switcher .switch {
+position: absolute;
+top: 2px;
+left: 2px;
+height: 40px;
+width: 90px;
+background-color: #2d3e50;
+border-radius: 50em;
+-webkit-transition: -webkit-transform 0.5s;
+-moz-transition: -moz-transform 0.5s;
+transition: transform 0.5s;
+}
+
+.search-switcher input[type="radio"]:checked + label + .switch,
+.search-switcher input[type="radio"]:checked + label:nth-of-type(n) + .switch {
+-webkit-transform: translateX(90px);
+-moz-transform: translateX(90px);
+-ms-transform: translateX(90px);
+-o-transform: translateX(90px);
+transform: translateX(90px);
+}
+
+.no-js .search-switcher {
+display: none;
+}
+
+/* End Switch Search */
