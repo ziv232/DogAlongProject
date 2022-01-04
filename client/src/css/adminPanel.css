@@ -1,0 +1,80 @@
+
+body {
+    background: radial-gradient(#e7e7e4,#dcddd4);}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10vh;
+}
+.title{
+    margin-top: 20vh;
+    margin-bottom: 3vh;
+    text-align: center;
+    font-size: 8vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.fields{
+    width: 50vw;
+}
+
+.errorMsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2rem;
+    font-size: 2.5vh;
+    background-color: #f8d6d6;
+    border: 1px solid #e07c7c;
+    border-radius: 0.3rem;
+    width: 70vw;
+}
+
+.progress-msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button{
+    font-size: 3vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 20vh;
+    margin: auto;
+    margin-top: 3vh;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    background: #2ecc71;
+    box-shadow: 0 5px 1px #27ae60;
+}
+
+.login-button:hover
+{
+    background: #27ae60;
+    box-shadow: 0 5px 1px #145b32;
+}
+
+.login-button:active
+{
+    border-top: 5px solid white;
+    box-shadow: none;
+}
