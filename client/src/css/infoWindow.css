@@ -1,0 +1,181 @@
+
+.dialogContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    direction: rtl;
+}
+
+.slider{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.exitButton{
+    position: fixed;
+    background: transparent;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+.indexs{
+    font-size: 3vh;
+    margin-top: 6vh;
+}
+
+
+/* 3D Add Button */
+
+.addButton
+{
+    font-size: 3vh;
+    width: 25vh;
+    height: 5vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+    padding: 5px 5px;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    background: #2ecc71;
+    box-shadow: 0 5px 1px #27ae60;
+}
+
+.addButton:hover
+{
+    background: #27ae60;
+    box-shadow: 0 5px 1px #145b32;
+}
+
+.addButton:active
+{
+    border-top: 5px solid white;
+    box-shadow: none;
+}
+
+/* END 3D Add Button */
+
+.exit-button{
+    background-color: #bbb;
+	width: 6vh;
+	height: 6vh;
+	border-radius: 50%;
+	color: #000;
+	float: right;
+	font-weight: bold;
+	font-size: 5vh;
+	cursor: pointer;
+    color: red;
+	transform: rotate(135deg);
+    position: fixed;
+    z-index: 100;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin-left: 1vh;
+    margin-top: 1vh;
+	transition: all .1s ease-in-out
+}
+.exit-button:hover, .exit-button:active{
+    background-color: #F00;
+	color: #FFF
+}
+
+.pagination{
+    padding: 30px 0;
+  }
+  
+  .pagination ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .pagination a{
+    display: inline-block;
+    padding: 10px 18px;
+    color: #222;
+  }
+  .pagination a{
+    background-color: #2ecc71;
+    margin: auto 5px;
+    color: #fff;
+    border: 3px solid #2ecc71;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 3px 7px #27ae60;
+  }
+  
+  .pagination a:first-of-type:before{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -25px;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-right: 22px solid #2ecc71;
+  }
+  
+  .pagination a:last-of-type:after{
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: -25px;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 22px solid #2ecc71;
+  }
+  
+  .pagination a:active, .pagination a:hover{
+    font-weight: bold;
+  }
+    
+
+@media (min-width:300px) and (max-width: 400px){
+    .slider{
+        height: 40vh;
+        width: 70vw;
+    }
+}
+
+@media (min-width:400px) and (max-width: 600px){
+    .slider{
+        height: 50vh;
+        width: 70vw;
+    }
+}
+
+@media (min-width:600px) and (max-width: 768px){
+    .slider{
+        width: 80vw;
+        height: 60vh;
+    }
+    
+}
+@media (min-width:768px) and (max-width: 1057px){
+    .slider{
+        width: 70vw;
+        height: 80vh;
+    }
+    
+}
+
+@media (min-width: 1057px){
+    .slider{
+        width: 45vw;
+    }
+}
